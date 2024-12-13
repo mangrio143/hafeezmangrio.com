@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafeez Rehan Mangrio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .about, .contact, .gallery {
+            margin-bottom: 40px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hafeez Rehan Mangrio</h1>
+        <p>Welcome to my personal website!</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>My name is Hafeez Rehan Mangrio. I am currently a 12th-grade student living in the small village of Arain in Sindh. I belong to the Mangrio caste. My father, Muhammad Hajan, has always been a source of inspiration for me. I enjoy exploring and learning new things, and I am passionate about sports.</p>
+        </section>
+        <section id="hobbies" class="hobbies">
+            <h2>Hobbies</h2>
+            <p>I actively participate in various sports, including cricket, volleyball, football, and even online games like PUBG. I also enjoy traveling and exploring new places. Unlike most people, I don't take relationships too seriously and prefer focusing on my passions and goals.</p>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <img src="/mnt/data/441510045_2040919986303772_3562260338315429837_n.jpg" alt="Image 1">
+            <img src="/mnt/data/442412191_2040919972970440_1593526784206798368_n.jpg" alt="Image 2">
+            <img src="/mnt/data/454608434_17957664233797472_3901107139764506551_n.jpg" alt="Image 3">
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: hafeezrehan@example.com</p>
+            <p>Phone: +92-300-1234567</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Hafeez Rehan Mangrio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
